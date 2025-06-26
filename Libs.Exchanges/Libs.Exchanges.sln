@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libs.Binance", "Libs.Binance\Libs.Binance.csproj", "{65387434-F335-4E2B-BDC0-3B981B87DE4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libs.BaseExchange", "Libs.BaseExchange\Libs.BaseExchange.csproj", "{904B63A8-35B5-49C4-9E31-5036A05AAF13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exchanges.Tester", "Exchanges.Tester\Exchanges.Tester.csproj", "{9B491299-9CFD-416B-98C5-5E2308A90826}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{65387434-F335-4E2B-BDC0-3B981B87DE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65387434-F335-4E2B-BDC0-3B981B87DE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65387434-F335-4E2B-BDC0-3B981B87DE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904B63A8-35B5-49C4-9E31-5036A05AAF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904B63A8-35B5-49C4-9E31-5036A05AAF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904B63A8-35B5-49C4-9E31-5036A05AAF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904B63A8-35B5-49C4-9E31-5036A05AAF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B491299-9CFD-416B-98C5-5E2308A90826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B491299-9CFD-416B-98C5-5E2308A90826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B491299-9CFD-416B-98C5-5E2308A90826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B491299-9CFD-416B-98C5-5E2308A90826}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
