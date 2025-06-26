@@ -3,3 +3,4 @@
 \packages
 *.csproj.user
 /TradingZone/TradingZone.App/bin
+/Libs.Exchanges/Libs.Binance/bin
